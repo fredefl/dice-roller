@@ -1,7 +1,14 @@
+Debug
+Release
+DiceRoller/Debug
+DiceRoller/Release
+*.suo
 # Compiled Object files
 *.slo
 *.lo
 *.o
+*.out
+*.vcxproj.user
 
 # Compiled Dynamic libraries
 *.so
