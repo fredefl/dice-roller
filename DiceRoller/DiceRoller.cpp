@@ -32,7 +32,6 @@ int main()
 	}
 	clock_t end = clock();
 	clock_t millis = end - start;
-	
 
 	//cout << rate;
 	//cout << "\r\n";
