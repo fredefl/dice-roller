@@ -1,0 +1,22 @@
+<html>
+<head>
+
+
+</head>
+<body>
+
+	<script type="text/javascript">
+	var hyppighed = 0;
+	var tal = 2;
+	var random;
+	var i;
+	for (i = 1; i <= 200000000; i++) {
+		random = Math.floor(Math.random() * 6) + 1;
+		if (random == tal) {
+			hyppighed++;
+		}
+	}
+	document.write(hyppighed/i * 100)
+	</script>
+</body>
+</html>
